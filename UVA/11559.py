@@ -1,4 +1,3 @@
-
 def main():
     while True:
         try:
@@ -10,13 +9,11 @@ def main():
                 a = list(map(int, input().split()))
 
                 costo = n * p
-                if costo <= b:
-                    for i in a:
-                        if n >= i:
-                            ans = True
-                            if aux > costo:
-                                aux = costo
-                            break
+                for i in a:
+                    if i >= n and costo <= b:
+                        ans = True
+                        aux = min(aux, costo)
+                        break
 
             print(aux if ans else 'stay home')
         except:
