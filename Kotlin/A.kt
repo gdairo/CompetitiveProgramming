@@ -1,6 +1,8 @@
 /**
+*
 * @Author Dairo Garcia
-* 
+*
+* https://kotlinlang.org/docs/tutorials/competitive-programming.html
 * https://codeforces.com/contest/1157/problem/A
 *
 */

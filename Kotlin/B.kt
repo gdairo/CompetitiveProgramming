@@ -1,17 +1,16 @@
 /**
+*
 * @author Dairo Garcia
-* 
+*
+* https://kotlinlang.org/docs/tutorials/competitive-programming.htmls
 * https://codeforces.com/contest/1157/problem/B
 *
 */
 
-private fun readLn() = readLine()!!
-private fun readInt() = readLn().toInt()
-
 fun main() {
-    val n = readInt()
-    val s = readLn()
-    val fl = readLn().split(" ").map { it.toInt() }
+    val n = readLine()!!.toInt()
+    val s = readLine()!!
+    val fl = readLine()!!.split(" ").map { it.toInt() }
 
     fun f(c: Char) = '0' + fl[c - '1']
 
